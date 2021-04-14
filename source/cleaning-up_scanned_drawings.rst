@@ -7,7 +7,7 @@ In order to be painted and edited with OpenToonz, scanned drawings have to under
 The process generates a Toonz raster level (TLV format) and the related default palette (TPL format), where the styles used to paint the level will be stored.
 
 
-.. note:: If the computer performance slows down during the cleanup process of very high resolution images, try activating the **Minimize Raster Memory Fragmentation** option in the Files  →  Preferences  →  General dialog (see  :ref:`Optimizing the Memory Usage <optimizing_the_memory_usage>`  ).
+.. note:: If the computer performance slows down during the cleanup process of very high resolution images, try activating the **Minimize Raster Memory Fragmentation** option in the Files  →  Preferences...  →  General dialog (see  :ref:`Optimizing the Memory Usage <optimizing_the_memory_usage>`  ).
 
 .. _the_cleanup_settings:
 
@@ -149,7 +149,7 @@ Three different autoadjust algorithms are available:
 
 .. note:: The advantage of the **Histo-L** mode over the others is that it adjusts the grey levels of each image independently, while the other algorithms equalize each image to make it look like the first one of the level.
 
-Only the effects of the **Black Eq** process can be checked using the Scan & Cleanup  →  **Cleanup Preview** command; the effects of **Histogram** and **Histo-L** are only visible selecting a sequence of at least two frames (i.e. one as reference frame and the others to be auto-adjusted) and processing them using the Scan & Cleanup  →  Cleanup command. You may need to make a few trials using different algorithms before obtaining the desired results. 
+Only the effects of the **Black Eq** process can be checked using the Scan & Cleanup  →  **Cleanup Preview** command; the effects of **Histogram** and **Histo-L** are only visible selecting a sequence of at least two frames (i.e. one as reference frame and the others to be auto-adjusted) and processing them using the Scan & Cleanup  →  **Cleanup** command. You may need to make a few trials using different algorithms before obtaining the desired results. 
 
 .. note:: These algorithms work on the area of the drawing specified in the Field text boxes, excluding a 5 mm boundary edge. In this way any line might be drawn to delimit the camera shot on paper, and the pegbar holes, do not affect the result.
 
@@ -276,7 +276,7 @@ You can also set other parameters and options:
 
 - The **Closest Field** parameter (NOT AVAILABLE in OpenToonz) defines the smallest field size you will zoom into the drawing, with the camera when compositing the scene. This value is meaningful if it is smaller than the camera field size, as it increases the final image resolution, preventing zoomed-in images from appearing jagged. For example if the cleanup camera is 1920x1080 pixels (HD 1080) with a 16 field size and the **Closest Field** is set to 8, the cleaned up drawings will have to be of twice the camera resolution, that is 3840 by 2160 pixels, so that when the camera closes up, the original image pixel resolution is preserved.
 
-- The **E/W** and **N/S** offset parameters shift the camera position, in case you want to define for the drawings a center different from the one automatically set by the reference field guide when the **Autocenter** is *on*, or different from the actual center of the image if the **Autocenter** is *off*; after the cleanup, the camera center will be the new center for the processed drawings.
+- The **X** and **Y** offset parameters shift the camera position, in case you want to define for the drawings a center different from the one automatically set by the reference field guide when the **Autocenter** is *on*, or different from the actual center of the image if the **Autocenter** is *off*; after the cleanup, the camera center will be the new center for the processed drawings.
 
 The cleanup camera size, resolution and offset can also be graphically controlled in OpenToonz's main Viewer when checking the cleanup process with the **Camera Test** mode (see  :ref:`Using the Camera Test <using_the_camera_test>`  ).
 
@@ -421,7 +421,7 @@ If you change any of the Cleanup or Camera parameters, the camera test automatic
 
     - Activate the DPI Lock in the cleanup camera parameters, and operate the handles to scale also the camera resolution  (NOT AVAILABLE in OpenToonz).
 
-    - Move the camera box to modify the cleanup camera E/W and N/S offset.
+    - Move the camera box to modify the cleanup camera X and Y offset.
 
 .. tip:: **To perform the camera test on a different drawing:**
 
@@ -450,7 +450,7 @@ It is also possible to automatically create a backup copy of the cleaned up draw
 
 .. tip:: **To automatically create a backup copy of the cleaned up drawings:**
 
-    1. Choose File  →  Preferences  →  Drawing.
+    1. Choose File  →  Preferences...  →  Drawing.
 
     2. Activate the **Keep Original Cleaned Up Drawings As Backup** option.
 
@@ -679,17 +679,17 @@ When the tasks are executed, the icon color tells the status of the task accordi
 .. |saveloadreset| image:: /_static/cleanup/cleanup_saveloadreset.png
 .. |progress| image:: /_static/cleanup/cleanup_progress.png
 .. |tasks_cleanup| image:: /_static/cleanup/tasks_cleanup.png
-.. |RGB_picker| image:: /_static/cleanup/RGB_picker.png
-.. |add_cleanup| image:: /_static/cleanup/add_cleanup.png
-.. |camera_stand| image:: /_static/cleanup/camera_stand.png
-.. |load| image:: /_static/cleanup/load.png
-.. |check| image:: /_static/cleanup/check.png
-.. |preview| image:: /_static/cleanup/preview.png
-.. |remove| image:: /_static/cleanup/remove.png
-.. |save| image:: /_static/cleanup/save.png
-.. |save_as| image:: /_static/cleanup/save_as.png
-.. |start| image:: /_static/cleanup/start.png
-.. |stop| image:: /_static/cleanup/stop.png
+.. |RGB_picker| image:: /_static/cleanup/RGB_picker.svg
+.. |add_cleanup| image:: /_static/cleanup/add_cleanup.svg
+.. |camera_stand| image:: /_static/cleanup/camera_stand.svg
+.. |load| image:: /_static/cleanup/load.svg
+.. |check| image:: /_static/cleanup/check.svg
+.. |preview| image:: /_static/cleanup/preview.svg
+.. |remove| image:: /_static/cleanup/remove.svg
+.. |save| image:: /_static/cleanup/save.svg
+.. |save_as| image:: /_static/cleanup/save_as.svg
+.. |start| image:: /_static/cleanup/start.svg
+.. |stop| image:: /_static/cleanup/stop.svg
 
 .. |cleanup_settings_es| image:: /_static/cleanup/es/cleanup_settings_pane.png
 .. |autocentering_es| image:: /_static/cleanup/es/cleanup_autocentering.png

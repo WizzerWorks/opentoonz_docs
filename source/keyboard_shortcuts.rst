@@ -45,28 +45,28 @@ The following are **some** of the predefined shortcuts available in OpenToonz.
 
 .. Note from Wolf_In_A_Bowl: '⌘' and '⌥' may appear larger than 1 space, this is why some rows look offset to the right
 
-=============================   ===============  =====  =========
+==============================   ===============  =====  =========
 **Tools**
-=============================   ===============  =====  =========
-|animate|  Animate              **A**
-|selection|  Selection          **S**
-|brush|  Brush                  **B**
-|geometric|  Geometric          **G**
-|type|  Type                    **Y**
-|fill|  Fill                    **F**
-|eraser|  Eraser                **E**
-|tape|  Tape                    **T**
-|style_picker|  Style Picker    **K**
-|RGB_picker|  RGB Picker        **R**
-|cpe|  Control Point Editor     **C**
-|pinch|  Pinch                  **M**
-|skeleton|  Skeleton            **V**
-|hook|  Hook                    **O**
-|plastic|  Plastic              **X**
-|zoom|  Zoom                    **Shift**        **+**  **Space**
-|rotate|  Rotate                **Ctrl/⌘ Cmd**   **+**  **Space**
-|hand|  Hand                    **Space**
-=============================   ===============  =====  =========
+==============================   ===============  =====  =========
+|animate|  Animate               **A**
+|selection|  Selection           **S**
+|brush|  Brush                   **B**
+|geometric|  Geometric           **G**
+|type|  Type                     **Y**
+|fill|  Fill                     **F**
+|eraser|  Eraser                 **E**
+|tape|  Tape                     **T**
+|style_picker|  Style Picker     **K**
+|RGB_picker|  RGB Picker         **R**
+|cpe|  Control Point Editor      **C**
+|pinch|  Pinch                   **M**
+|skeleton|  Skeleton             **V**
+|hook|  Hook                     **O**
+|plastic|  Plastic               **X**
+|zoom|  Zoom                     **Shift**        **+**  **Space**
+|rotate|  Rotate                 **Ctrl/⌘ Cmd**   **+**  **Space**
+|hand|  Hand                     **Space**
+==============================   ===============  =====  =========
 
 .. note:: If you **press and hold** a tool keyboard shortcut, you perform a temporary tool selection: when you release the key you will return to the previously selected tool.
 
@@ -100,30 +100,30 @@ Main Window Full Screen Mode     **Ctrl/⌘ Cmd**     **+**  **`**
 ==============================   =================  =====  ======
 
 
-=============================   ================  =====  =====
+==============================   ================  =====  =====
 **Playback Controls**    
-=============================   ================  =====  =====
-Play                            **P**
-Loop                            **L**
-Previous Drawing                **,**
-Next Drawing                    **.**
-Previous Frame                  **Shift**         **+**  **,**
-Next Frame                      **Shift**         **+**  **.**
-Previous Keyframe               **Ctrl/⌘ Cmd**    **+**  **,**
-Next Keyframe                   **Ctrl/⌘ Cmd**    **+**  **.**
-=============================   ================  =====  =====
+==============================   ================  =====  =====
+Play                             **P**
+Loop                             **L**
+Previous Drawing                 **,**
+Next Drawing                     **.**
+Previous Frame                   **Shift**         **+**  **,**
+Next Frame                       **Shift**         **+**  **.**
+Previous Keyframe                **Ctrl/⌘ Cmd**    **+**  **,**
+Next Keyframe                    **Ctrl/⌘ Cmd**    **+**  **.**
+==============================   ================  =====  =====
 
 
-==============================   ===================  =====  =========  =====  =====
+============================   ===================  =====  =========  =====  =====
 **File Menu**    
-==============================   ===================  =====  =========  =====  =====
-New Scene                        **Ctrl/⌘ Cmd**       **+**  **N**
-Load Scene...                    **Ctrl/⌘ Cmd**       **+**  **L**
-Save All                         **Ctrl/⌘ Cmd**       **+**  **S**
-Save Scene                       **Ctrl/⌘ Cmd**       **+**  **Shift**  **+**  **S**
-Preferences...                   **Ctrl/⌘ Cmd**       **+**  **U**
-Quit                             **Ctrl/⌘ Cmd**       **+**  **Q**
-==============================   ===================  =====  =========  =====  =====
+============================   ===================  =====  =========  =====  =====
+New Scene                      **Ctrl/⌘ Cmd**       **+**  **N**
+Load Scene...                  **Ctrl/⌘ Cmd**       **+**  **L**
+Save All                       **Ctrl/⌘ Cmd**       **+**  **S**
+Save Scene                     **Ctrl/⌘ Cmd**       **+**  **Shift**  **+**  **S**
+Preferences...                 **Ctrl/⌘ Cmd**       **+**  **U**
+Quit                           **Ctrl/⌘ Cmd**       **+**  **Q**
+============================   ===================  =====  =========  =====  =====
 
 
 ============================   ===============  =====  =========  =====  =====
@@ -148,21 +148,21 @@ Send to Back                   **Ctrl/⌘ Cmd**   **+**  **[**
 ============================   ===============  =====  =========  =====  =====
 
 
-===============================   =================  =====  ======
+=====================================   =================  =====  ======
 **Level Menu**    
-===============================   =================  =====  ======
-New Level...                      **Alt/⌥ Option**   **+**  **N**
-===============================   =================  =====  ======
+=====================================   =================  =====  ======
+New Level...                            **Alt/⌥ Option**   **+**  **N**
+=====================================   =================  =====  ======
 
 
-===============================   =================  =====  ======
+=====================================   =================  =====  ======
 **Xsheet Menu**    
-===============================   =================  =====  ======
-Set Key                           **Z**
-New FX...                         **Ctrl/⌘ Cmd**     **+**  **F**
-Edit FX...                        **Ctrl/⌘ Cmd**     **+**  **K**
-Apply Lip Sync Data to Column     **Alt/⌥ Option**   **+**  **L**
-===============================   =================  =====  ======
+=====================================   =================  =====  ======
+Set Key                                 **Z**
+New FX...                               **Ctrl/⌘ Cmd**     **+**  **F**
+Edit FX...                              **Ctrl/⌘ Cmd**     **+**  **K**
+Apply Lip Sync Data to Column           **Alt/⌥ Option**   **+**  **L**
+=====================================   =================  =====  ======
 
 
 =====================================   =================   =====  =====
@@ -173,8 +173,8 @@ Increase Step                           **'**
 Decrease Step                           **;**
 Drawing Substitution Backward           **Q**
 Drawing Substitution Forward            **W**
-Similar Drawing Substitution Backward   **Alt/⌥ Option**   **+**  **Q**
-Similar Drawing Substitution Forward    **Alt/⌥ Option**   **+**  **W**
+Similar Drawing Substitution Backward   **Alt/⌥ Option**    **+**  **Q**
+Similar Drawing Substitution Forward    **Alt/⌥ Option**    **+**  **W**
 =====================================   =================   =====  =====
 
 
@@ -225,24 +225,24 @@ Online Manual...                  **F1**
 
 
 .. |configure_shortcuts_window| image:: /_static/configure_shortcuts/configure_shortcuts_window.png
-.. |animate| image:: /_static/configure_shortcuts/animate.png
-.. |brush| image:: /_static/configure_shortcuts/brush.png
-.. |cpe| image:: /_static/configure_shortcuts/cpe.png
-.. |eraser| image:: /_static/configure_shortcuts/eraser.png
-.. |fill| image:: /_static/configure_shortcuts/fill.png
-.. |geometric| image:: /_static/configure_shortcuts/geometric.png
-.. |hand| image:: /_static/configure_shortcuts/hand.png
-.. |hook| image:: /_static/configure_shortcuts/hook.png
-.. |pinch| image:: /_static/configure_shortcuts/pinch.png
-.. |plastic| image:: /_static/configure_shortcuts/plastic.png
-.. |RGB_picker| image:: /_static/configure_shortcuts/RGB_picker.png
-.. |rotate| image:: /_static/configure_shortcuts/rotate.png
-.. |selection| image:: /_static/configure_shortcuts/selection.png
-.. |skeleton| image:: /_static/configure_shortcuts/skeleton.png
-.. |style_picker| image:: /_static/configure_shortcuts/style_picker.png
-.. |tape| image:: /_static/configure_shortcuts/tape.png
-.. |tracker| image:: /_static/configure_shortcuts/tracker.png
-.. |type| image:: /_static/configure_shortcuts/type.png
-.. |zoom| image:: /_static/configure_shortcuts/zoom.png
+.. |animate| image:: /_static/configure_shortcuts/animate.svg
+.. |brush| image:: /_static/configure_shortcuts/brush.svg
+.. |cpe| image:: /_static/configure_shortcuts/cpe.svg
+.. |eraser| image:: /_static/configure_shortcuts/eraser.svg
+.. |fill| image:: /_static/configure_shortcuts/fill.svg
+.. |geometric| image:: /_static/configure_shortcuts/geometric.svg
+.. |hand| image:: /_static/configure_shortcuts/hand.svg
+.. |hook| image:: /_static/configure_shortcuts/hook.svg
+.. |pinch| image:: /_static/configure_shortcuts/pinch.svg
+.. |plastic| image:: /_static/configure_shortcuts/plastic.svg
+.. |RGB_picker| image:: /_static/configure_shortcuts/RGB_picker.svg
+.. |rotate| image:: /_static/configure_shortcuts/rotate.svg
+.. |selection| image:: /_static/configure_shortcuts/selection.svg
+.. |skeleton| image:: /_static/configure_shortcuts/skeleton.svg
+.. |style_picker| image:: /_static/configure_shortcuts/style_picker.svg
+.. |tape| image:: /_static/configure_shortcuts/tape.svg
+.. |tracker| image:: /_static/configure_shortcuts/tracker.svg
+.. |type| image:: /_static/configure_shortcuts/type.svg
+.. |zoom| image:: /_static/configure_shortcuts/zoom.svg
 
 .. |configure_shortcuts_window_es| image:: /_static/configure_shortcuts/es/configure_shortcuts_window.png

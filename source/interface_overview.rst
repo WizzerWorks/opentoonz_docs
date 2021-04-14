@@ -40,9 +40,9 @@ Rooms can be named and their order can be rearranged. New rooms can be added and
 
     Right-click the room tab and choose Delete Room "<Name>" from the menu that opens. The current room cannot be deleted.
 
-.. tip:: **To return to the set of rooms provided with Toonz:**
+.. tip:: **To return to the set of rooms provided with OpenToonz:**
 
-    Choose Windows  →  Reset to Default Rooms.
+    Choose Windows  →  Workspace  →  **Reset to Default Rooms**.
 
 
 .. _customizing_rooms:
@@ -94,7 +94,7 @@ Most of the panes can be maximized to fill the full interface, and can be added 
 
 .. tip:: **To lock/unlock the rooms configuration:**
 
-    Activate/deactivate the Windows  →  Lock Room Panes option.
+    Activate/deactivate the Windows  →  Workspace  →  **Lock Room Panes** option.
 
 
 .. _room_panes:
@@ -275,7 +275,7 @@ Message Center
 
 |UI_messagecenter|
 
-The message center displays in a list the messages OpenToonz is sending to the user. You can set filters on the messages showed in the window using the appropriate radio buttons, or you can clear completely the list pressing the Clear button.
+The message center displays in a list the messages OpenToonz is sending to the user. You can set filters on the messages showed in the window using the appropriate radio buttons, or you can clear the list completely by pressing the Clear button.
 
 
 .. _toolbar:
@@ -441,11 +441,11 @@ The Command Bar pane can be docked in any part of the OpenToonz UI.
 
 .. tip:: **To display the Command Bar:**
 
-    - Choose Windows  →  Command Bar.
+    - Choose Windows  →  **Command Bar**.
 
 .. tip:: **To customize the Command Bar buttons:**
 
-    1. Choose Windows  →  Command Bar to open the Command Bar.
+    1. Choose Windows  →  **Command Bar** to open the Command Bar.
 
     2. Right click on it and select **Customize Command Bar** from the menu that opens. The Customize Command Bar window will open.
 
@@ -554,11 +554,11 @@ The appearance of the OpenToonz interface can be customized to suit any producti
 
 OpenToonz allows users to choose a specific language for the software interface, including menus, commands, tooltips, and on-screen messages. Currently available languages are: English, German, Spanish, French, Italian, Russian, Japanese and Chinese.
 
-There are also several included themes to choose from: Default, Blue, Dark and Light.
+There are also several included themes to choose from: Default, Blue, Dark, Light and Neutral.
 
 .. figure:: /_static/UI/themes.png
 
-   The OpenToonz interface theme set to Default and to Light.
+   The OpenToonz interface theme set to *Default* and to *Light*.
 
 The interface themes are defined by means of a QSS file, whose concepts, terminology, and syntax are inspired by CSS files (HTML Cascading Style Sheets). The QSS files also refers to a set of PNG images that are used to create interface widgets. 
 
@@ -572,7 +572,7 @@ The QSS file can be edited with any text editor software, e.g. Notepad or TextEd
 
 .. tip:: **To choose the interface language:**
 
-    1. Choose File  →  Preferences  →  Interface.
+    1. Choose File  →  Preferences...  →  Interface.
 
     2. In the Language* option menu choose the language you want to use in the interface.
 
@@ -580,7 +580,7 @@ The QSS file can be edited with any text editor software, e.g. Notepad or TextEd
 
 .. tip:: **To choose the interface theme:**
 
-    1. Choose File  →  Preferences  →  Interface.
+    1. Choose File  →  Preferences...  →  Interface.
 
     2. In the Theme option menu choose the style to be applied to the interface.
 
@@ -632,28 +632,28 @@ The QSS file can be edited with any text editor software, e.g. Notepad or TextEd
 .. |UI_timeline| image:: /_static/UI/UI_timeline.png
 .. |UI_history| image:: /_static/UI/UI_history.png
 .. |UI_recordaudio| image:: /_static/UI/UI_recordaudio.png
-.. |animate| image:: /_static/UI/animate.png
-.. |bender| image:: /_static/UI/bender.png
-.. |brush| image:: /_static/UI/brush.png
-.. |cpe| image:: /_static/UI/cpe.png
-.. |cutter| image:: /_static/UI/cutter.png
-.. |eraser| image:: /_static/UI/eraser.png
-.. |fill| image:: /_static/UI/fill.png
-.. |geometric| image:: /_static/UI/geometric.png
-.. |hand| image:: /_static/UI/hand.png
-.. |hook| image:: /_static/UI/hook.png
-.. |iron| image:: /_static/UI/iron.png
-.. |magnet| image:: /_static/UI/magnet.png
-.. |paint_brush| image:: /_static/UI/paint_brush.png
-.. |pinch| image:: /_static/UI/pinch.png
-.. |plastic| image:: /_static/UI/plastic.png
-.. |pump| image:: /_static/UI/pump.png
-.. |RGB_picker| image:: /_static/UI/RGB_picker.png
-.. |rotate| image:: /_static/UI/rotate.png
-.. |selection| image:: /_static/UI/selection.png
-.. |skeleton| image:: /_static/UI/skeleton.png
-.. |style_picker| image:: /_static/UI/style_picker.png
-.. |tape| image:: /_static/UI/tape.png
-.. |tracker| image:: /_static/UI/tracker.png
-.. |type| image:: /_static/UI/type.png
-.. |zoom| image:: /_static/UI/zoom.png
+.. |animate| image:: /_static/UI/animate.svg
+.. |bender| image:: /_static/UI/bender.svg
+.. |brush| image:: /_static/UI/brush.svg
+.. |cpe| image:: /_static/UI/cpe.svg
+.. |cutter| image:: /_static/UI/cutter.svg
+.. |eraser| image:: /_static/UI/eraser.svg
+.. |fill| image:: /_static/UI/fill.svg
+.. |geometric| image:: /_static/UI/geometric.svg
+.. |hand| image:: /_static/UI/hand.svg
+.. |hook| image:: /_static/UI/hook.svg
+.. |iron| image:: /_static/UI/iron.svg
+.. |magnet| image:: /_static/UI/magnet.svg
+.. |paint_brush| image:: /_static/UI/paint_brush.svg
+.. |pinch| image:: /_static/UI/pinch.svg
+.. |plastic| image:: /_static/UI/plastic.svg
+.. |pump| image:: /_static/UI/pump.svg
+.. |RGB_picker| image:: /_static/UI/RGB_picker.svg
+.. |rotate| image:: /_static/UI/rotate.svg
+.. |selection| image:: /_static/UI/selection.svg
+.. |skeleton| image:: /_static/UI/skeleton.svg
+.. |style_picker| image:: /_static/UI/style_picker.svg
+.. |tape| image:: /_static/UI/tape.svg
+.. |tracker| image:: /_static/UI/tracker.svg
+.. |type| image:: /_static/UI/type.svg
+.. |zoom| image:: /_static/UI/zoom.svg

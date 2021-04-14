@@ -67,7 +67,7 @@ It's also possible to *group* several nodes into one single node, in order to be
 
     Do one of the following:
 
-    - Click the **New Camera** button (|camera|) in the bottom bar of the Stage Schematic window.
+    - Click the **New Camera** button (|camera_view|) in the bottom bar of the Stage Schematic window.
 
     - Right-click in the Stage Schematic and choose **New Camera** from the menu that opens.
 
@@ -410,7 +410,7 @@ Once areas to be tracked are defined in the first frame of a range, it's possibl
 
     3. Select the frame range in the Xsheet/Timeline or in the Level Strip.
 
-    4. Choose Level  →  **Tracking**, set the tracking options and click the **Track** button.
+    4. Choose Level  →  **Tracking...**, set the tracking options and click the **Track** button.
 
 .. tip:: **To link an object to the tracked region:**
 
@@ -429,11 +429,11 @@ In the **Animate tool** (|animate|) options bar you can set the following:
     
     - **Mode:**, lets you choose which transformation options to display in the tool options bar. Options are: **Position**, **Rotation**, **Scale**, **Shear**, **Center** and **All**.
 
-    - **Position**, **N/S:** and **E/W:** set the vertical and horizontal positions of the selected object, position **Z:** sets its position along the Z axis (see  :ref:`Working in a 3D Environment <working_in_a_3d_environment>`  ), and **SO:** sets the column/layer stacking order, that can be different from the one defined in the Xsheet/Timeline (see  :ref:`Changing Columns Stacking Order <changing_columns_stacking_order>`  ).
+    - **Position**, **X:** and **Y:** set the horizontal and vertical positions of the selected object, **Z:** sets its position along the Z axis, for defining the depth of the object in 3D space (see  :ref:`Working in a 3D Environment <working_in_a_3d_environment>`  ), and **SO:** sets the column/layer stacking order, that can override the default one defined by the Xsheet column (or Timeline layer) order (see  :ref:`Changing Columns Stacking Order <changing_columns_stacking_order>`  ).
 
     |animate_tool_position|
 
-    - **Rotation:**, sets the rotation of the selected object.
+    - **Rotation:**, sets the rotation of the selected object around the Z axis.
 
     |animate_tool_rotation|
 
@@ -445,7 +445,7 @@ In the **Animate tool** (|animate|) options bar you can set the following:
 
     |animate_tool_shear|
 
-    - **Center**, **N/S:** and **E/W:** set the vertical and horizontal position of the center of the selected object. The Center of an object cannot be animated.
+    - **Center**, **X:** and **Y:** set the horizontal and vertical position of the center of the selected object. The Center of an object cannot be animated.
 
     |animate_tool_center|
 
@@ -461,7 +461,7 @@ In the **Animate tool** (|animate|) options bar you can set the following:
 
 .. note:: If the tool options bar is too short to display all the tool options, it can be scrolled by using arrow buttons available at its ends.
 
-.. note:: Position values are expressed in the default unit of measure set in the Preferences  →  Interface dialog (see  :ref:`Choosing the Working Unit <choosing_the_working_unit>`  ).
+.. note:: Position values are expressed in the default unit of measure set in the Preferences...  →  Interface dialog (see  :ref:`Choosing the Working Unit <choosing_the_working_unit>`  ).
 
 
 .. _animate_tool_handle:
@@ -643,7 +643,7 @@ A motion path can be assigned to an object node in the Stage Schematic, and it c
    A motion path assigned to pegbar 2.
 
 
-As soon as a path is assigned to an object's node, the object will be automatically placed at the beginning of the path according to its center, and it will only be able to move along it (and not in the standard E/W and N/S directions anymore).
+As soon as a path is assigned to an object's node, the object will be automatically placed at the beginning of the path according to its center, and it will only be able to move along it (and not in the standard X and Y directions anymore).
 
 The keyframes of the object on the motion path can be defined by dragging the object along it, and they are *expressed as a percentage* where 0% is the starting point and 100% is the ending point of the path. 
 
@@ -872,7 +872,7 @@ Working in a 3D Environment
 ---------------------------
 You can place and move cameras, the table, pegbars and columns/layers in a 3D environment, as if they were elements on a real 3D stage. 
 
-This means that it's possible to move the camera automatically generating a multiplane effect, or truck it through characters and elements simulating a perspective effect, or create complex 3D motion paths for any element by combining a depth movement with movements in the E/W and N/S directions.
+This means that it's possible to move the camera automatically generating a multiplane effect, or truck it through characters and elements simulating a perspective effect, or create complex 3D motion paths for any element by combining a depth movement with movements in the X and Y directions.
 
 The 3D environment can be activated, or deactivated, with the **3D View** button (|3d|) available in the Viewer title bar. When activated, the viewer displays the cone of the camera and all of the scene contents along the Z axis, which is the direction from the camera to the table. The area displayed can be moved and rotated to set the best viewing angle, and a side or top viewpoint can be set. 
 
@@ -950,35 +950,34 @@ The size of the objects changes according to its Z position, like in a real 3D e
 .. |animate_tool_handle_center| image:: /_static/movements/animate_tool_handle_center.png
 .. |using_column_keys| image:: /_static/movements/using_column_keys.png
 
-.. |animate| image:: /_static/movements/animate.png
-.. |hand| image:: /_static/movements/hand.png
-.. |hook| image:: /_static/movements/hook.png
-.. |rotate| image:: /_static/movements/rotate.png
-.. |tracker| image:: /_static/movements/tracker.png
-.. |selection| image:: /_static/movements/selection.png
-.. |3d| image:: /_static/movements/3d.png
-.. |camera_stand| image:: /_static/movements/camera_stand.png
-.. |camera_view| image:: /_static/movements/camera_view.png
-.. |camera| image:: /_static/movements/camera.png
+.. |animate| image:: /_static/movements/animate.svg
+.. |hand| image:: /_static/movements/hand.svg
+.. |hook| image:: /_static/movements/hook.svg
+.. |rotate| image:: /_static/movements/rotate.svg
+.. |tracker| image:: /_static/movements/tracker.svg
+.. |selection| image:: /_static/movements/selection.svg
+.. |3d| image:: /_static/movements/3d.svg
+.. |camera_stand| image:: /_static/movements/camera_stand.svg
+.. |camera_view| image:: /_static/movements/camera_view.svg
 .. |circular_arrow| image:: /_static/movements/circular_arrow.png
-.. |fit_to_window| image:: /_static/movements/fit_to_window.png
-.. |focus_on_current| image:: /_static/movements/focus_on_current.png
-.. |key| image:: /_static/movements/key.png
-.. |link_to_control_points| image:: /_static/movements/link_to_control_points.png
-.. |lock| image:: /_static/movements/lock.png
-.. |maximize| image:: /_static/movements/maximize.png
-.. |minimize| image:: /_static/movements/minimize.png
-.. |new_motion_path| image:: /_static/movements/new_motion_path.png
-.. |next_key| image:: /_static/movements/next_key.png
-.. |option| image:: /_static/movements/option.png
-.. |pegbar| image:: /_static/movements/pegbar.png
-.. |preview| image:: /_static/movements/preview.png
-.. |prevkey| image:: /_static/movements/prevkey.png
-.. |reorder_nodes| image:: /_static/movements/reorder_nodes.png
-.. |reset| image:: /_static/movements/reset.png
-.. |rhomb| image:: /_static/movements/rhomb.png
-.. |schematic| image:: /_static/movements/schematic.png
-.. |side_view| image:: /_static/movements/side_view.png
-.. |square| image:: /_static/movements/square.png
-.. |switch_output_port| image:: /_static/movements/switch_output_port.png
-.. |top_view| image:: /_static/movements/top_view.png
+.. |fit_to_window| image:: /_static/movements/fit_to_window.svg
+.. |focus_on_current| image:: /_static/movements/focus_on_current.svg
+.. |key| image:: /_static/movements/key.svg
+.. |link_to_control_points| image:: /_static/movements/link_to_control_points.svg
+.. |lock| image:: /_static/movements/lock.svg
+.. |maximize| image:: /_static/movements/maximize.svg
+.. |minimize| image:: /_static/movements/minimize.svg
+.. |new_motion_path| image:: /_static/movements/new_motion_path.svg
+.. |next_key| image:: /_static/movements/next_key.svg
+.. |option| image:: /_static/movements/option.svg
+.. |pegbar| image:: /_static/movements/pegbar.svg
+.. |preview| image:: /_static/movements/preview.svg
+.. |prevkey| image:: /_static/movements/prevkey.svg
+.. |reorder_nodes| image:: /_static/movements/reorder_nodes.svg
+.. |reset| image:: /_static/movements/reset.svg
+.. |rhomb| image:: /_static/movements/rhomb.svg
+.. |schematic| image:: /_static/movements/schematic.svg
+.. |side_view| image:: /_static/movements/side_view.svg
+.. |square| image:: /_static/movements/square.svg
+.. |switch_output_port| image:: /_static/movements/switch_output_port.svg
+.. |top_view| image:: /_static/movements/top_view.svg

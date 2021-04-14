@@ -111,7 +111,7 @@ Homebrew
 Installing on Linux
 -------------------
 
-.. _alt::
+.. _alt:
 
 ALT Linux
 '''''''''
@@ -197,6 +197,13 @@ Snap
 ~~~~
 
 ``sudo snap install opentoonz``
+
+.. _installing_on_freebsd:
+
+Installing on FreeBSD
+---------------------
+
+``# cd /usr/ports/multimedia/opentoonz && make install clean``
 
 .. |win_setup_1| image:: /_static/installing/windows_setup_1.png
 .. |win_setup_2| image:: /_static/installing/windows_setup_2.png
